@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<link rel="shortcut icon" type="image/x-icon" href="zy.ico" media="screen" />
+<meta charset="utf-8">
+<audio src="mp3/zj.mp3" autoplay=“autoplay”></audio>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<head>
+<title>伴我同行</title>
+</head>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+</script>
+<script type="text/javascript" src="swfobject.js"></script>
+<style type="text/css">	
+	/* 隐藏 from ie on mac \*/
+	html {
+		height: 100%;
+		overflow: hidden;
+	}
+	#flashcontent {
+	height: 100%;
+	font-size: 35px;
+	}
+	/* 结束隐藏 */
+	body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		background-color: #000000;
+		color:#ffffff;
+		font-family:sans-serif;
+		font-size:40;
+	}
+	a {	
+		color:#cccccc;
+	}
+	
+	}
+    #apDiv1 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	z-index: 1;
+	left: 62px;
+	top: 69px;
+	background-color: #F48D2E;
+}
+	
+</style>
+<body onLoad="MM_preloadImages('anl/daz.png')">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="2%" bgcolor="#FB951D"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ann','','anl/daz.png',1)"><img src="anl/zx.png" width="30" height="30" id="ann"></a></td>
+    <td width="98%">&nbsp;</td>
+  </tr>
+</table>
+<div id="flashcontent">需要有新的Adobe Flash Player才可浏览本页<a href="http://get.adobe.com/cn/flashplayer/">点击下载Adobe Flash Player</a></div>
+<script type="text/javascript">
+		var fo = new SWFObject("TiltViewer.swf", "viewer", "100%", "100%", "9.0.28", "");
+		fo.addVariable("useFlickr", "false");
+		fo.addVariable("xmlURL", "gallery.xml");
+		fo.addVariable("maxJPGSize","990");	
+		fo.addVariable("useReloadButton", "false");
+		fo.addVariable("columns", "5");
+		fo.addVariable("rows", "5");
+		fo.addParam("allowFullScreen","true");
+		fo.write("flashcontent");			
+	</script>
+</body>
+</html>

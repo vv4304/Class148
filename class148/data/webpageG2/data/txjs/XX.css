@@ -1,0 +1,31 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body
+{
+ margin: 0PX;
+ background-color: #82D200;
+ color: #FFF;
+ font-size: 16px;   
+ overflow:hidden; 
+}
+#V1
+{
+ float:left;
+ z-index:2;
+ width:60%;
+}
+#V2
+{
+ float: right;
+ z-index: 1;
+ color: #FFF;
+ width:40%;
+ height:800PX;
+ text-align:center;
+ background-image:url(TC.png);
+}
+#A
+{
+ text-align:center;
+  margin-top:50%;
+}

@@ -1,0 +1,171 @@
+body
+{
+ margin:0PX;
+ background-color:#7D7DFF;
+}
+#KT{}  
+#B1
+{
+ background-color: #7D7DFF;
+}
+#B2
+{
+ background-color: #9393FF;     
+}  
+#B3
+{
+    background-color: #aaaaff;
+    height:6550PX;
+}
+#B4
+{
+    background-color: #B9B9ff;
+    height:3550PX;
+}
+#B5
+{
+    background-color: #CECEFF;
+    
+    height:44800PX;
+}
+
+#K1
+{
+ background-color: #82D200;
+ width: 80%;
+ text-align: center;
+ color: #FFF;
+ margin-top: 0px;
+ margin-right: auto;
+ margin-bottom: 0px;
+ margin-left: auto;
+ height: 790px;
+}
+#K2
+{
+     height:900PX;
+     width:80%;
+     margin:0PX auto 0PX auto;
+     background-color: #82D200;
+}
+#K3
+{
+     height:6000PX;
+     width:80%;
+     margin:0PX auto 0PX auto;
+     background-color: #82D200;
+}
+#K4
+{
+     height:3550PX;
+     width:80%;
+     margin:0PX auto 0PX auto;
+     background-color: #82D200;
+}
+#K5
+{
+     height:44500PX;
+     width:80%;
+     margin:0PX auto 0PX auto;
+     background-color: #82D200;
+}
+.D1
+{
+ width: 100%;
+ float: left;
+ background-image: url(h.png);
+ background-repeat: no-repeat;
+ height: 50px;
+ background-position: center;
+ color: #82D200;
+ font-size: 36px;
+ text-align: center;
+}
+#D2
+{
+    height:716PX;
+}
+
+
+#F2
+{
+ background-repeat:no-repeat;
+ height:400PX;
+ background-position:top
+}
+
+
+#C11{
+ background-repeat: no-repeat;
+  height:300PX;
+  width:30%;
+  background-image:url(data/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png);
+  background-color:#0F0;
+  margin-top:50PX;
+
+}
+
+
+#C12{
+ background-image: url(data/%E6%9C%AA%E6%A0%87%E9%A2%98-2.png);
+ width:70%;
+ background-repeat: 600;
+ float: right;
+
+}
+#N1{
+ margin-top:100PX;
+   }
+#M1{
+ width:50PX;
+ float:left;
+ height:300PX;
+ background-image:url(data/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png);
+ background-repeat:no-repeat;
+    }
+#M2{
+ width:90%;;
+ float: right;
+ height:300PX;
+ background-image:url(data/%E6%9C%AA%E6%A0%87%E9%A2%98-2.png);
+ background-repeat:no-repeat;
+ margin-left:20PX;
+    }
+    
+    
+ #C1{
+ width: 70PX;
+ height: 50PX;
+ position: absolute;
+ background-image: url(tx.png);
+ background-repeat: no-repeat;
+ left: 98px;
+ top: 1906px;
+    }
+#C2{
+ width: 600PX;
+ height: 300PX;
+ color: #000000;
+ background-color: #FFF;
+ position: absolute;
+ left: 170px;
+ font-family: "黑体";
+ font-size: 16px;
+ top: 1908px;
+    }   
+    
+#BIBIBI
+{
+ height: 100PX;
+ text-align: center;
+ font-family: "黑体";
+ font-size: 16px;
+ color: #FFF;
+}
+.image
+{
+ background-color: #F7EED6;
+ height:40000PX;
+ color:#FFF;
+ text-align:center;
+}

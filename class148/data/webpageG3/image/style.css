@@ -1,0 +1,677 @@
+﻿body
+{
+	font-family: "微软雅黑";
+	background-color: rgb(255,255,204);
+}
+.Q
+{
+	background-color: rgb(243,243,243);
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+}
+.Q1
+{
+	
+	right: 10px;
+	height: 40px;
+	font-size: 35px;
+	line-height: 40px;
+	display: block;
+	background-color: rgb(27,159,230);
+	
+}
+#Q1:hover
+{
+	background-color: rgb(150,150,255);	
+	
+}
+.A
+{
+	width: 1000PX;
+	height: 150PX;
+	background-image: url(tou.png);
+	margin-right: auto;
+	margin-left: auto;
+}
+.zhong
+{
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(zhong.png);
+
+	transition: transform 0.5s;
+
+
+	width: 150PX;
+	height: 150PX;
+	
+}
+#zhong:hover
+{
+	transform:rotateY(180deg);
+	width: 160PX;
+	perspective(180px)
+	
+}
+#hongqi
+{
+	
+	width: 160px;
+	height: 106px;
+	background-image: url(hongqi.png);
+	position: absolute;
+	margin-top: 24px;
+	transform:rotateY(180deg);
+
+
+}
+
+.B
+{
+	
+	width: 1000PX;
+	height: 770PX;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(22,171,29);
+	border-radius: 5px;
+	box-shadow:0px 0px 20px black;
+	background-image: url(l.png);
+
+}
+.BB
+{
+	width: 1000px;
+	height: 160px;
+}
+.B1
+{
+	width: 330px;
+	height: 160px;
+	background-color: rgb(255,244,244);
+	float: left;
+	margin-left: 1.5px;
+	margin-right: 1.5px;
+	filter:alpha(opacity=100);         
+   -moz-opacity:1;                   
+    opacity: 1;
+    cursor:pointer;
+
+}
+.B2
+{
+	width: 331px;
+	height: 160px;
+	background-color: rgb(255,244,244);
+	float: left;
+	margin-left: 1.4px;
+	margin-right: 1.4px;
+	filter:alpha(opacity=100);           
+   -moz-opacity:1;                  
+    opacity: 1;
+    cursor:pointer;
+}
+.B3
+{
+	width: 330px;
+	height: 160px;
+	background-color: rgb(255,244,244);
+	float: right;
+	margin-left: 1.5px;
+	margin-right: 1.5px;
+	filter:alpha(opacity=100);           
+   -moz-opacity:1;                   
+    opacity: 1;
+    cursor:pointer;
+}
+.C
+{
+	width: 1040px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	display: none;
+	
+	
+}
+.kuai
+{
+	border-radius: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	width: 168px;
+	height: 298px;
+	background-color: rgb(22,171,29);
+	box-shadow:0px 0px 20px black;
+	float: left;
+}
+.laoshi
+{
+	width: 1020px;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+.laoshik
+{
+	float: left;
+	width: 235px;
+	height: 235px;
+	margin-left: 10px;
+	margin-right: 10px;
+    margin-top: 10px;
+	border-radius: 5px;
+	box-shadow:0px 0px 20px black;
+	
+	
+	
+}
+.nameblock
+{
+float: left;
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 100%;
+	margin-bottom: 30PX;
+	margin-top: 30PX;
+	color: rgb(255,0,0);
+
+
+}
+.nameblock1
+{
+	width: 1000PX;
+	margin-left: auto; 
+	margin-right: auto; 
+	font-size: 50PX;
+
+}
+.shiping
+{
+
+	width: 1020px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 255PX;
+}
+.shipingk
+{
+
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	width: 235px;
+	height: 235PX;
+background-color: rgb(0,85,240);
+	box-shadow:0px 0px 20px black;
+	float: left;
+	text-decoration: none;
+	border-radius: 5px;
+}
+.shipingname
+{
+	
+font-size: 30px;
+text-align: center;
+line-height: 50px;
+color: rgb(255,255,255);
+	
+}
+.shipingklog
+{
+	
+	background-image: url(122.png);
+	text-align: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 235px;
+	height: 235px;
+	background-color: rgb(1,1,1);
+	filter:alpha(opacity=70);            /* 用于IE浏览器－透明度为30%*/
+   -moz-opacity:0.7;                    /*  用于Moz + Firefox－透明度为30%*/
+    opacity: 0.7;                        /* 用于支持CSS3的浏览器－透明度为30%*/
+}
+.laoshiktext
+{
+	color: rgb(255,255,255);
+	background-color: rgb(255,0,0);
+	text-align: center;
+	height: 235px;
+	width: 235px;
+	position: absolute;
+	filter:alpha(opacity=80);            /* 用于IE浏览器－透明度为10%*/
+   -moz-opacity:0.8;                    /*  用于Moz + Firefox－透明度为10%*/
+    opacity: 0.8;                        /* 用于支持CSS3的浏览器－透明度为10%*/
+   font-size: 30px;
+   transform:rotateY(180deg);
+   cursor:default 
+
+
+}
+.jiangzhuang
+{
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1100px;
+
+}
+.jiangzhuangk
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	height: 50px;
+	text-align: center;
+	font-size: 25px;
+	line-height: 50px;
+	border-radius: 5px;
+	box-shadow:0px 0px 6px black;
+	cursor:default;
+	background-image: url(JZ.png);
+	width: 1000px;
+	height: 50px;
+	display: block;
+}
+.zhaopian
+{
+	
+	margin-top: 130px;
+
+	
+	
+	
+}
+.zhaopiank
+{
+	width: 1020px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}.zhaopiankk
+{
+	margin-left: 10px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	width: 235px;
+	height: 235px;
+
+    border-radius: 5px;
+    box-shadow:0px 0px 20px black;
+
+
+	
+}
+.zhaopianq
+{
+	position: absolute;
+	color: rgb(0.85.227);
+
+
+	
+	
+}
+.test01
+{
+
+	height: 460px;
+	width: 490px;
+	position:absolute;
+	
+
+	position: absolute;
+
+}
+.test00
+{
+
+	height: 235px;
+	width: 235px;
+	position:absolute;
+	position: absolute;
+
+}
+.test
+{
+
+	height: 235px;
+	width: 235px;
+	position:absolute;
+	background-color: rgb(1,1,1);
+	background-image: url(test.png);
+	position: absolute;
+		filter:alpha(opacity=70);            /* 用于IE浏览器－透明度为30%*/
+   -moz-opacity:0.7;                    /*  用于Moz + Firefox－透明度为30%*/
+    opacity: 0.7;                        /* 用于支持CSS3的浏览器－透明度为30%*/
+           
+}
+
+#zp1:hover{opacity: 1;}
+
+#zp2:hover{opacity: 1;}
+
+#zp3:hover{opacity: 1;}
+
+#zp4:hover{opacity: 1;}
+
+#zp5:hover{opacity: 1;}
+.imgs
+{
+	
+	border-radius: 5px;
+	height: 235px;
+	width: 235px;
+	
+}
+.fujian
+{
+	
+
+	width: 100%;
+	float: left;
+
+
+	
+}
+.fujiank
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;	
+}
+.hua
+{
+	float: left;
+	width: 100%;
+}
+.huak
+{
+	
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(85,160,255);
+	height: 750px;
+	width: 1000px;
+	color: rgb(239,241,244);
+	font-family: simhei;
+	font-size: 30px;
+	box-shadow:0px 0px 20px black;
+	border-radius: 5px;
+	background-image: url(zm.jpg);
+}
+.dicheng1
+{
+	height: 700px;
+	width: 88px;
+	float: left;
+	
+	
+	
+	
+}
+.dicheng2
+{
+	height: 700px;
+	width: 88px;
+	float: left;
+	
+	
+	
+	
+}
+.dicheng3
+{
+	height: 700px;
+	width: 88px;
+	float: left;
+	
+	
+	
+	
+}
+.z
+{
+	height: 80px;
+	width: 88px;
+	text-align: center;
+	float: left;
+	
+}
+
+#z3{height: 90px;}
+
+#z4{height: 90px;}
+
+#z5{height: 100px;}
+#z5:hover{cursor:pointer;}
+#z6{height: 100px;}
+#z6:hover{cursor:pointer;}
+
+#z8:hover{cursor:pointer;}
+
+#zz2{height: 90px;}
+#zz3{height: 90px;}
+#zz3:hover{cursor:pointer;	}
+#zz4:hover{cursor:pointer;	}
+#zz5{height: 95px;}
+#zz5:hover{cursor:pointer;	}
+#zz6{height: 100px;}
+
+#zz7:hover{cursor:pointer;	}
+
+.dicheng
+{
+    background-color: rgb(255,255,255);
+    height: 200px;
+	width: 300px;
+}
+.xp
+{
+	margin-top: 720px;
+	position: absolute;
+	cursor:pointer
+}
+.xpcaidan
+{
+	
+	width: 254px;
+	height: 451px;
+	margin-top: 270px;
+	position: absolute;
+
+
+background-image: url(开始菜单.png);
+}
+#gj
+{
+	
+	left: 22px;
+	bottom: 2px;
+	position: absolute;
+	height: 48px;
+	width: 228px;
+	background-image: url(gj.png);
+	background-color: rgb(255,255,255);
+		color: rgb(15,15,15);
+		cursor:pointer
+
+
+}
+#gj:hover
+{
+
+	background-color: rgb(49,106,197);
+	color:rgb(255,255,255) ;
+	
+}
+#gjtext
+{
+	margin-left: 56px;
+
+
+	font-family: simsun;
+		font-size: 1px
+}
+#xp
+{
+		width: 98px;
+		height: 30px;
+	
+}
+#xp:hover
+{
+background-image: url(biankaishi.png);
+}
+.guanji
+{
+	height: 750px;
+	width: 1000px;
+    z-index: 9;
+    position:absolute;
+
+	
+}
+.guanjicaidan
+{
+	
+	width: 314px;
+	height: 199px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 250px;
+	background-image: url(guanjcaidan.png);	
+
+}
+.guanjicaidan1
+{
+
+
+width: 50px;
+height: 50px;
+margin-top: 80px;
+margin-left: 130px;
+cursor:pointer;	
+ position:absolute;
+}
+.guanjicaidan2
+{
+width: 60px;
+height: 20px;
+margin-top: 166px;
+margin-left: 242px;
+cursor:pointer;	
+ position:absolute;
+}
+#LS1{transition: transform 0.9s;}
+#LS1:hover{transform:rotateY(180deg);}
+#LS2{transition: transform 0.9s;}
+#LS2:hover{transform:rotateY(180deg);}
+#LS3{transition: transform 0.9s;}
+#LS3:hover{transform:rotateY(180deg);}
+#LS4{transition: transform 0.9s;}
+#LS4:hover{transform:rotateY(180deg);}
+#LS5{transition: transform 1s;}
+#LS5:hover{transform:rotateY(180deg);}
+#jiangzhuangk1{transition: transform 0.5s;}#jiangzhuangk1:hover{transform:rotateX(360deg);}
+#jiangzhuangk2{transition: transform 0.5s;}#jiangzhuangk2:hover{transform:rotateX(360deg);}
+#jiangzhuangk3{transition: transform 0.5s;}#jiangzhuangk3:hover{transform:rotateX(360deg);}
+#jiangzhuangk4{transition: transform 0.5s;}#jiangzhuangk4:hover{transform:rotateX(360deg);}
+#jiangzhuangk5{transition: transform 0.5s;}#jiangzhuangk5:hover{transform:rotateX(360deg);}
+#jiangzhuangk6{transition: transform 0.5s;}#jiangzhuangk6:hover{transform:rotateX(360deg);}
+#jiangzhuangk7{transition: transform 0.5s;}#jiangzhuangk7:hover{transform:rotateX(360deg);}
+#jiangzhuangk8{transition: transform 0.5s;}#jiangzhuangk8:hover{transform:rotateX(360deg);}
+#jiangzhuangk9{transition: transform 0.5s;}#jiangzhuangk9:hover{transform:rotateX(360deg);}
+#jiangzhuangk10{transition: transform 0.5s;}#jiangzhuangk10:hover{transform:rotateX(360deg);}
+#jiangzhuangk11{transition: transform 0.5s;}#jiangzhuangk11:hover{transform:rotateX(360deg);}
+
+.window
+{
+	
+	height: 600px;
+	width: 800px;
+	z-index: 9;
+	left: 160px;
+	margin-top: 60px;
+	position: absolute;
+
+	
+}
+.windowx
+{
+	height: 30px;
+	width: 30px;
+	cursor:pointer;
+	position: absolute;
+	right: 0px;
+}
+.windowk
+{
+	
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 468px;
+	top: 309px;
+	cursor:pointer;
+}
+.windowk2
+{
+	
+	height: 110px;
+	width: 95px;
+	position: absolute;
+	left: 490px;
+	top: 120px;
+	cursor:pointer;
+}
+.windowk3
+{
+	
+	height: 50px;
+	width: 80px;
+	position: absolute;
+	left: 240px;
+	top: 309px;
+	cursor:pointer;
+}
+.windowk5
+{
+	
+	height: 60px;
+	width: 70px;
+	position: absolute;
+	left: 236px;
+	top: 231px;
+	cursor:pointer;
+}
+.windowk4
+{
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	left: 575px;
+	top: 231px;
+	cursor:pointer
+}
+.name
+{
+	
+	width: 123px;
+	height: 50px;
+	background-color: red;
+	color: azure;
+	font-size: 40px;
+	text-align: center;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 1px;
+	float: left;
+	
+}
